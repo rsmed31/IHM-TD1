@@ -1,5 +1,5 @@
-import { Car } from "./car";
-import { Driver } from "./driver";
+import { Car } from "./car.js";
+import { Driver } from "./driver.js";
 
 let c1: Car = new Car("Clio", "Renault", "White", 2024);
 let c2: Car = new Car("308", "Peugeot", "Grey", 2024);

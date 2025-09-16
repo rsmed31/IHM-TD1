@@ -1,4 +1,4 @@
-import { Driver } from './driver';
+import { Driver } from './driver.js';
 
 export class Car {
   model: string;

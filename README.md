@@ -12,11 +12,16 @@
 ### Backend Only (Node.js)
 1. **Compile the TypeScript files:**
    ```powershell
-   tsc car.ts driver.ts carmain.ts
+   tsc 
    ```
    This will generate `car.js`, `driver.js`, and `carmain.js`.
 
-2. **Run the main script using Node.js:**
+2. **Navigate to the `dist` directory:**
+   ```powershell
+   cd dist
+   ```
+
+3. **Run the main script using Node.js:**
    ```powershell
    node carmain.js
    ```
@@ -29,7 +34,7 @@
 
 2. **Run the project:**
    ```powershell
-   npm start
+   npm run dev
    ```
 
 ## What the Code Does
