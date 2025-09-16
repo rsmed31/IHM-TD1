@@ -47,22 +47,25 @@
   </head>
   <body>
     <h1>🚗 Car Simulator</h1>
-    
-    <div>
-      <h2>Interactive Car Control</h2>
-      <div id="interactive-car"></div>
-      <div class="controls">
-        <button id="start-btn" class="start">Start</button>
-        <button id="stop-btn" class="stop">Stop</button>
-        <button id="accelerate-btn" class="accelerate">Accelerate</button>
-        <button id="refuel-btn" class="refuel">Refuel</button>
-      </div>
-    </div>
 
-    <div>
-      <h2>Car Fleet (Click to Select)</h2>
+    <section>
+      <h2>Add a Car</h2>
+      <form id="add-car-form" class="controls">
+        <input name="brand" placeholder="Brand (e.g., Renault)" required />
+        <input name="model" placeholder="Model (e.g., Clio)" required />
+  <label style="margin-left:6px">Color:</label>
+  <input name="color" type="color" title="Car color" />
+        <input name="year" placeholder="Year" type="number" min="1900" max="2100" />
+        <input name="driverName" placeholder="Driver Name" />
+        <input name="licenseNumber" placeholder="License Number" />
+        <button type="submit" class="start">Add</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Car Fleet</h2>
       <div id="car-display"></div>
-    </div>
+    </section>
 
     <script type="module" src="./dist/carmain-html.js"></script>
   </body>

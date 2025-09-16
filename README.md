@@ -5,9 +5,16 @@
 - `driver.ts`: Defines and exports the `Driver` class.
 - `carmain.ts`: Imports the `Car` and `Driver` classes, creates objects, and demonstrates their usage.
 
+## Prérequis
+
+- Node.js et npm installés
+- TypeScript (`npm install -g typescript`)
+
 ## Steps to run
 
 ## How to Run the Project
+
+- There is two ways to run the project :
 
 ### Backend Only (Node.js)
 1. **Compile the TypeScript files:**
