@@ -5,10 +5,10 @@
 - `driver.ts`: Defines and exports the `Driver` class.
 - `carmain.ts`: Imports the `Car` and `Driver` classes, creates objects, and demonstrates their usage.
 
-## Prérequis
+## Prerequisites
 
-- Node.js et npm installés
-- TypeScript (`npm install -g typescript`)
+- Node.js and npm installed
+- TypeScript (npm install -g typescript)
 
 ## Steps to run
 
